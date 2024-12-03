@@ -5,7 +5,6 @@ safe_count = 0
 
 for report in report_list:
     level_list = report.split(" ")
-    difference_list = []
     increase = None
     for level_index in range(len(level_list)-1):
         difference = int(level_list[level_index + 1]) - int(level_list[level_index])
