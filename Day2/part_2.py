@@ -1,13 +1,5 @@
 from input import input
 
-test_input = """7 6 4 2 1
-1 2 7 8 9
-9 7 6 2 1
-1 3 2 4 5
-8 6 4 4 1
-1 3 6 7 9
-57 56 57 59 60 63 64 65"""
-
 report_list = input.split("\n")
 safe_count = 0
 
